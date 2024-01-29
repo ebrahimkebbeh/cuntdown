@@ -1,8 +1,18 @@
 <html>
     <head>
-
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Clock</title>
+    <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
+        <div >
+            <label for="date">enter target date</label>
+            <input type="datetime-lacal" id="date" name="date">
+            <button onclick="startCoundown()">start countdown</button>
+        </div>
+        <div id="countdown"></div>
+
+        <script src="script.js"></script>
     </body>
 </html>
