@@ -1,5 +1,5 @@
 function startCoundown(){
-//set the and time for countdown
+//Get the target date and time from the input field
 
 const targetDateInput = document.getElementById('date').value;
 const targetDate = new Date(targetDateInput).getTime();
